@@ -58,6 +58,8 @@ return [
             'ignore_exceptions' => false,
         ],
 
+        
+
         'single' => [
             'driver' => 'single',
             'path' => storage_path('logs/laravel.log'),
@@ -127,6 +129,13 @@ return [
             'path' => storage_path('logs/laravel.log'),
         ],
 
-    ],
+      
+    // other channels...
+
+   
+],
+
+
+    
 
 ];
